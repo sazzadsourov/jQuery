@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header2 {
+  color: white;
+  border: 8px solid green;
+  text-align: center;
+  background-color: blue;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.c_navbar {
+  margin: 20px;
+}
+.main_menu ul li {
+  background-color: cornflowerblue;
+  margin-right: 20px;
+  color: #ffffff !important;
+  border: 3px solid cornflowerblue;
+}
+.main_menu ul li:hover {
+  background-color: white;
+  border: 3px solid cornflowerblue;
+  color: cornflowerblue !important;
+}
+.main_menu ul li a {
+  font-size: 20px;
+  padding: 6px 5px;
+}
+.main_menu ul li a:active {
+  color: red !important;
+}
+.active {
+  background-color: white !important;
+  border: 3px solid cornflowerblue !important;
+  color: cornflowerblue !important;
+}
+/* Progressbar */
+.ui-progressbar {
+  position: relative;
+}
+.progress_label1 {
+  position: absolute;
+  left: 50%;
+  top: 4px;
+  font-weight: bold;
+  text-shadow: 1px 1px 0 #fff;
+}
+#progressbar_one {
+  width: 400px;
+}
+
+/* Selectmenu */
+#select_field {
+  border: 0;
+  margin-left: 300px;
+}
+.select_label {
+  display: block;
+  margin: 20px 0 0 0;
+}
+
+#select_circle {
+  float: left;
+  background: cyan;
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+}
+/* Tooltip */
+.tultip_label {
+  display: inline-block;
+  width: 5em;
+}
+.tultip_field {
+  margin-bottom: 20px;
+}
+fieldset .help {
+  display: inline-block;
+}
+.ui-tooltip {
+  width: 210px;
+}
+
+/* Hide */
+.hide_toggler {
+  width: 500px;
+  height: 200px;
+}
+#hide_button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#hide_effect {
+  margin-left: 50px;
+  width: 240px;
+  height: 195px;
+  padding: 0.4em;
+  position: relative;
+}
+#hide_effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}

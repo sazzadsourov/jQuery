@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/ui_four.css">
+    <title>form effect</title>
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light c_navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">js/jQ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse main_menu" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">jQuery Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="slide.html">jQuery Slide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">jQuery Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jQuery.html">jQuery API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ui_one.html">jQuery ui One</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ui_two.html">jQuery ui Two</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ui_three.html">jQuery ui Three</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ui_four.html">jQuery ui Four</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- add effect -->
+    <h1 class="header2">add effect</h1>
+    <div class="toggler_Add">
+        <div id="effect_add" class="ui-corner-all">
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+        </div>
+    </div>
+
+    <button id="button_add" class="ui-state-default ui-corner-all btn btn-secondary">Add Effect</button>
+
+    <!-- remove effecta -->
+    <h1 class="header2">remove effect</h1>
+
+    <div class="remove_toggler">
+        <div id="remove_effect" class="newClass_remove ui-corner-all">
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+        </div>
+    </div>
+
+    <button id="button_remove" class="ui-state-default ui-corner-all btn btn-primary">Remove Effect</button>
+
+    <!-- Switch  effect -->
+    <h1 class="header2">switch effect</h1>
+    <div class="toggler_switch">
+        <div id="effect_switch" class="newClass_switch ui-corner-all">
+            Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede.
+        </div>
+    </div>
+    <button id="button_switch" class="ui-state-default ui-corner-all btn btn-success">Switch Effect</button>
+
+    <!-- toggle effect -->
+    <h1 class="header2">toggle effect</h1>
+
+    <div class="toggle_toggler">
+        <div id="toggle_effect" class="ui-widget-content ui-corner-all">
+            <h3 class="ui-widget-header ui-corner-all">Toggle</h3>
+            <p>
+                Etiam libero neque, luctus a, eleifend nec, semper at, lorem. Sed pede. Nulla lorem metus, adipiscing
+                ut, luctus sed, hendrerit vitae, mi.
+            </p>
+        </div>
+    </div>
+
+    <select name="effects" id="toggle_effectTypes">
+        <option value="blind">Blind</option>
+        <option value="bounce">Bounce</option>
+        <option value="clip">Clip</option>
+        <option value="drop">Drop</option>
+        <option value="explode">Explode</option>
+        <option value="fade">Fade</option>
+        <option value="fold">Fold</option>
+        <option value="highlight">Highlight</option>
+        <option value="puff">Puff</option>
+        <option value="pulsate">Pulsate</option>
+        <option value="scale">Scale</option>
+        <option value="shake">Shake</option>
+        <option value="size">Size</option>
+        <option value="slide">Slide</option>
+    </select>
+
+    <button id="toggle_button" class="ui-state-default ui-corner-all">Run Effect</button>
+
+    <!-- ramge slide -->
+    <div class="all_slide">
+        <h1 class="header2">range slide</h1>
+
+        <p>
+            <label for="amount">Price range:</label>
+            <input type="text" id="amount_slide">
+        </p>
+
+        <div id="slider_range"></div>
+    </div>
+
+
+
+
+
+    <!-- js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ui_four.js"></script>
+
+</body>
+
+</html>

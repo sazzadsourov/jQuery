@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.c_navbar {
+  margin: 20px;
+}
+.main_menu ul li {
+  background-color: cornflowerblue;
+  margin-right: 20px;
+  color: #ffffff !important;
+  border: 3px solid cornflowerblue;
+}
+.main_menu ul li:hover {
+  background-color: white;
+  border: 3px solid cornflowerblue;
+  color: cornflowerblue !important;
+}
+.main_menu ul li a {
+  font-size: 20px;
+  padding: 6px 5px;
+}
+.active {
+  background-color: white !important;
+  border: 3px solid cornflowerblue !important;
+  color: cornflowerblue !important;
+}
+.header2 {
+  color: white;
+  border: 8px solid green;
+  text-align: center;
+  background-color: blue;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+/* slide up */
+.slideup1 {
+  background: #3d9a44;
+  margin: 3px;
+  width: 80px;
+  height: 40px;
+  float: left;
+}
+
+/* slide down */
+#slideDownbtn1 {
+  background: #cfd;
+  margin: 3px;
+  width: 85px;
+  text-align: center;
+  float: left;
+  cursor: pointer;
+  border: 2px outset black;
+  font-weight: bolder;
+}
+.slideDownInput {
+  display: none;
+  width: 120px;
+  float: left;
+  margin: 10px;
+}
+/* slide toggle */
+#slideToggleBtn {
+  margin-top: 35px;
+}
+.slidetoggleText {
+  width: 100px;
+  height: 100px;
+  margin-right: 15px;
+  float: left;
+}
+.slidetoggleText1 {
+  background-color: red;
+}
+.slidetoggleText2 {
+  background-color: blue;
+}
+.slidetoggleText3 {
+  background-color: cyan;
+}
+.slidetoggleText4 {
+  background-color: green;
+}
+/* go stop back */
+.animation_toggle {
+  position: absolute;
+  background-color: cyan;
+  left: 0px;
+  width: 60px;
+  height: 60px;
+  margin: 5px;
+}
+/* animate */
+.animate_box {
+  background-color: lime;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  border: 2px solid green;
+  padding: 15px;
+  margin: 3px;
+  font-size: 14px;
+}
+.animate_btn {
+  font-size: 14px;
+}

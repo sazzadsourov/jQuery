@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header2 {
+  color: white;
+  border: 8px solid green;
+  text-align: center;
+  background-color: blue;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.c_navbar {
+  margin: 20px;
+}
+.main_menu ul li {
+  background-color: cornflowerblue;
+  margin-right: 20px;
+  color: #ffffff !important;
+  border: 3px solid cornflowerblue;
+}
+.main_menu ul li:hover {
+  background-color: white;
+  border: 3px solid cornflowerblue;
+  color: cornflowerblue !important;
+}
+.main_menu ul li a {
+  font-size: 20px;
+  padding: 6px 5px;
+}
+.active {
+  background-color: white !important;
+  border: 3px solid cornflowerblue !important;
+  color: cornflowerblue !important;
+}
+/* before() */
+.before_text {
+  background: yellow;
+}
+/* after() */
+.after_text {
+  background: red;
+}
+/* closest */
+.closest_li {
+  margin: 3px;
+  padding: 3px;
+  background: #eeeeee;
+}
+.closest_li.highlight1 {
+  background: yellow;
+}
+/* delegate */
+.delegate_text {
+  background: yellow;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 5px;
+}
+.delegate_span {
+  color: red;
+}
+/* empty */
+.empty_text {
+  background: cyan;
+}

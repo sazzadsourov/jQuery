@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header2 {
+  color: white;
+  border: 8px solid green;
+  text-align: center;
+  background-color: blue;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.c_navbar {
+  margin: 20px;
+}
+.main_menu ul li {
+  background-color: cornflowerblue;
+  margin-right: 20px;
+  color: #ffffff !important;
+  border: 3px solid cornflowerblue;
+}
+.main_menu ul li:hover {
+  background-color: white;
+  border: 3px solid cornflowerblue;
+  color: cornflowerblue !important;
+}
+.main_menu ul li a {
+  font-size: 20px;
+  padding: 6px 5px;
+}
+.active {
+  background-color: white !important;
+  border: 3px solid cornflowerblue !important;
+  color: cornflowerblue !important;
+}
+/* form submit */
+.submit_text {
+  margin: 0;
+  color: blue;
+  margin-left: 10px;
+}
+
+.submit_text2 {
+  color: red;
+}
+/* form select */
+.select_text {
+  color: blue;
+}
+.form_select {
+  color: red;
+}
+/* focus */
+.focus_span {
+  display: none;
+}
+/* form button() */
+textarea {
+  height: 45px;
+}
+/* form link */
+.a_link {
+  display: inline-block;
+  margin-right: 30px;
+}

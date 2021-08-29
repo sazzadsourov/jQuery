@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header2 {
+  color: white;
+  border: 8px solid green;
+  text-align: center;
+  background-color: blue;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.c_navbar {
+  margin: 20px;
+}
+.main_menu ul li {
+  background-color: cornflowerblue;
+  margin-right: 20px;
+  color: #ffffff !important;
+  border: 3px solid cornflowerblue;
+}
+.main_menu ul li:hover {
+  background-color: white;
+  border: 3px solid cornflowerblue;
+  color: cornflowerblue !important;
+}
+.main_menu ul li a {
+  font-size: 20px;
+  padding: 6px 5px;
+}
+.main_menu ul li a:active {
+  color: red !important;
+}
+.active {
+  background-color: white !important;
+  border: 3px solid cornflowerblue !important;
+  color: cornflowerblue !important;
+}
+/* Draggable */
+#draggable_text {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  background-color: cyan;
+}
+/* Droppable */
+#draggable_text2 {
+  width: 100px;
+  height: 100px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px 10px 10px 0;
+}
+#droppable_text {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+  float: left;
+  margin: 10px;
+}
+/* Resizable */
+#resizable_text {
+  width: 150px;
+  height: 150px;
+  padding: 0.5em;
+}
+#resizable_text h3 {
+  text-align: center;
+  margin: 0;
+}
+.Resizable_mt {
+  margin-top: 200px;
+}
+/* selectable */
+#feedback {
+  font-size: 1.4em;
+}
+#selectable_item .ui-selecting {
+  background: #feca40;
+}
+#selectable_item .ui-selected {
+  background: #f39814;
+  color: white;
+}
+#selectable_item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#selectable_item li {
+  margin: 3px;
+  padding: 0.4em;
+  font-size: 1.4em;
+  height: 50px;
+}
+/* Sortable */
+#sortable_item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 60%;
+}
+#sortable_item li {
+  margin: 0 3px 3px 3px;
+  padding: 0.4em;
+  padding-left: 1.5em;
+  font-size: 1.4em;
+  height: 50px;
+}
+#sortable_item li span {
+  position: absolute;
+  margin-left: -1.3em;
+}

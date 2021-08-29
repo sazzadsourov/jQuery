@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header2 {
+  color: white;
+  border: 8px solid green;
+  text-align: center;
+  background-color: blue;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.c_navbar {
+  margin: 20px;
+}
+.main_menu ul li {
+  background-color: cornflowerblue;
+  margin-right: 20px;
+  color: #ffffff !important;
+  border: 3px solid cornflowerblue;
+}
+.main_menu ul li:hover {
+  background-color: white;
+  border: 3px solid cornflowerblue;
+  color: cornflowerblue !important;
+}
+.main_menu ul li a {
+  font-size: 20px;
+  padding: 6px 5px;
+}
+.active {
+  background-color: white !important;
+  border: 3px solid cornflowerblue !important;
+  color: cornflowerblue !important;
+}
+/* add effect */
+.toggler_Add {
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+#button_add {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect_add {
+  width: 240px;
+  height: 200px;
+  padding: 1em;
+  border: 1px solid #000;
+  background: #eee;
+  color: #333;
+}
+.newClass_add {
+  text-indent: 40px;
+  letter-spacing: 0.4em;
+  width: 410px;
+  height: 120px;
+  padding: 30px;
+  margin: 10px;
+  font-size: 1.1em;
+}
+/* remove effecta */
+.remove_toggler {
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+#button_remove {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#remove_effect {
+  position: relative;
+  height: 150px;
+  width: 240px;
+  padding: 1em;
+  letter-spacing: 0;
+  font-size: 1.2em;
+  border: 1px solid #000;
+  background: #eee;
+  color: #333;
+}
+.newClass_remove {
+  text-indent: 40px;
+  letter-spacing: 0.4em;
+  width: 410px;
+  height: 100px;
+  padding: 30px;
+  margin: 10px;
+  font-size: 1.6em;
+}
+/*  */
+.toggler_switch {
+  width: 500px;
+  height: 200px;
+  position: relative;
+}
+#button_switch {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#effect_switch {
+  position: relative;
+}
+.newClass_switch {
+  width: 240px;
+  padding: 1em;
+  letter-spacing: 0;
+  margin: 0;
+}
+.anotherNewClass_switch {
+  text-indent: 40px;
+  letter-spacing: 0.2em;
+  width: 410px;
+  height: 100px;
+  padding: 30px;
+  margin: 10px;
+  font-size: 1.1em;
+}
+/* toggle effect */
+.toggle_toggler {
+  width: 500px;
+  height: 200px;
+}
+#toggle_button {
+  padding: 0.5em 1em;
+  text-decoration: none;
+}
+#toggle_effect {
+  position: relative;
+  width: 240px;
+  height: 195px;
+  padding: 0.4em;
+}
+#toggle_effect h3 {
+  margin: 0;
+  padding: 0.4em;
+  text-align: center;
+}
+/* range slide */
+.all_slide {
+  margin-bottom: 50px;
+}
+#amount_slide {
+  border: 0;
+  color: #f6931f;
+  font-weight: bold;
+}
+#slider_range {
+  width: 500px;
+}

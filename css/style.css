@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.header2 {
+  color: white;
+  border: 8px solid green;
+  text-align: center;
+  background-color: blue;
+  margin-left: 500px;
+  margin-right: 500px;
+}
+.c_navbar {
+  margin: 20px;
+}
+.main_menu {
+}
+.main_menu ul {
+}
+.main_menu ul li {
+  background-color: cornflowerblue;
+  margin-right: 20px;
+  color: #ffffff !important;
+  border: 3px solid cornflowerblue;
+}
+.main_menu ul li:hover {
+  background-color: white;
+  border: 3px solid cornflowerblue;
+  color: cornflowerblue !important;
+}
+.main_menu ul li a {
+  font-size: 20px;
+  padding: 6px 5px;
+}
+.active {
+  background-color: white !important;
+  border: 3px solid cornflowerblue !important;
+  color: cornflowerblue !important;
+}
+/* hide show */
+.hide {
+  background: #def3ca;
+  margin: 3px;
+  width: 80px;
+  display: none;
+  float: left;
+  text-align: center;
+}
+/* fadeIn */
+span {
+  color: red;
+  cursor: pointer;
+}
+div {
+  margin: 3px;
+  width: 80px;
+  display: none;
+  height: 80px;
+  float: left;
+}
+#one {
+  background: #f00;
+}
+#two {
+  background: #0f0;
+}
+#three {
+  background: #00f;
+}
+/* fadeOut */
+.fadeout1 {
+  font-size: 150%;
+  cursor: pointer;
+}
+/* fadeTo */
+.fadeto1,
+.fadetop1 {
+  width: 80px;
+  height: 40px;
+  margin: 0;
+  position: absolute;
+  padding-top: 8px;
+}
+.fadetop1 {
+  background: #fcc;
+  text-align: center;
+}
+.fadeto1 {
+  background: blue;
+}

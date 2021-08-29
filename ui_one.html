@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/ui_one.css">
+    <title>jQuery ui one</title>
+</head>
+
+<body>
+    <!-- navbar start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light c_navbar">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">js/jQ</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse main_menu" id="navbarNav">
+                <ul class="navbar-nav m-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">jQuery Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="slide.html">jQuery Slide</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="form.html">jQuery Form</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="jQuery.html">jQuery API</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="ui_one.html">jQuery ui One</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ui_two.html">jQuery ui Two</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ui_three.html">jQuery ui Three</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="ui_four.html">jQuery ui Four</a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- navbar end -->
+    <!-- Accordion -->
+    <h1 class="header2">Accordion</h1>
+
+
+    <div id="accordion">
+        <h3>Lesson 1</h3>
+        <div>
+            <p>
+                Mauris mauris ante, blandit et, ultrices a, suscipit eget, quam. Integer
+                ut neque. Vivamus nisi metus, molestie vel, gravida in, condimentum sit
+                amet, nunc. Nam a nibh. Donec suscipit eros. Nam mi. Proin viverra leo ut
+                odio. Curabitur malesuada. Vestibulum a velit eu ante scelerisque vulputate.
+            </p>
+        </div>
+        <h3>Lesson 2</h3>
+        <div>
+            <p>
+                Sed non urna. Donec et ante. Phasellus eu ligula. Vestibulum sit amet
+                purus. Vivamus hendrerit, dolor at aliquet laoreet, mauris turpis porttitor
+                velit, faucibus interdum tellus libero ac justo. Vivamus non quam. In
+                suscipit faucibus urna.
+            </p>
+        </div>
+        <h3>Lesson 3</h3>
+        <div>
+            <p>
+                Nam enim risus, molestie et, porta ac, aliquam ac, risus. Quisque lobortis.
+                Phasellus pellentesque purus in massa. Aenean in pede. Phasellus ac libero
+                ac tellus pellentesque semper. Sed ac felis. Sed commodo, magna quis
+                lacinia ornare, quam ante aliquam nisi, eu iaculis leo purus venenatis dui.
+            </p>
+            <ul>
+                <li>List item one</li>
+                <li>List item two</li>
+                <li>List item three</li>
+            </ul>
+        </div>
+        <h3>Lesson 4</h3>
+        <div>
+            <p>
+                Cras dictum. Pellentesque habitant morbi tristique senectus et netus
+                et malesuada fames ac turpis egestas. Vestibulum ante ipsum primis in
+                faucibus orci luctus et ultrices posuere cubilia Curae; Aenean lacinia
+                mauris vel est.
+            </p>
+            <p>
+                Suspendisse eu nisl. Nullam ut libero. Integer dignissim consequat lectus.
+                Class aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                inceptos himenaeos.
+            </p>
+        </div>
+    </div>
+    <!-- Autocomplete -->
+    <h1 class="header2">Autocomplete</h1>
+
+    <div class="ui-widget">
+        <label for="tags">Tags: </label>
+        <input id="1tags">
+    </div>
+    <!-- Datepicker -->
+    <h1 class="header2">Datepicker</h1>
+    <p>Date: <input type="text" id="1datepicker"></p>
+
+    <!-- Dialog -->
+    <h1 class="header2">Dialog</h1>
+
+    <div id="dialog-form" title="Create new user">
+        <p class="validateTips">All form fields are required.</p>
+
+        <form>
+            <fieldset>
+                <label for="name" class="di_label">Name</label>
+                <input type="text" name="name" id="name" value="sazzad sourov"
+                    class="text ui-widget-content ui-corner-all di_input">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" value="sazzadsourov.com"
+                    class="text ui-widget-content ui-corner-all">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" value="xxxxxxx"
+                    class="text ui-widget-content ui-corner-all">
+
+                <!-- Allow form submission with keyboard without duplicating the dialog button -->
+                <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+            </fieldset>
+        </form>
+    </div>
+
+
+    <div id="users-contain" class="ui-widget">
+        <h1 class="di_h1">Existing Users:</h1>
+        <table id="users" class="ui-widget ui-widget-content">
+            <thead>
+                <tr class="ui-widget-header ">
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Password</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>sazzad sourov</td>
+                    <td>sourovsazzad44@gmail.com</td>
+                    <td>johndoe1</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <button id="create-user">Create new user</button>
+
+    <!-- menu -->
+    <h1 class="header2">menu</h1>
+
+    <ul id="one_menu">
+        <li class="ui-state">
+            <div>Toys (n/a)</div>
+        </li>
+        <li>
+            <div>Books</div>
+        </li>
+        <li>
+            <div>Clothing</div>
+        </li>
+        <li>
+            <div>Electronics</div>
+            <ul>
+                <li class="ui-state">
+                    <div>Home Entertainment</div>
+                </li>
+                <li>
+                    <div>Car Hifi</div>
+                </li>
+                <li>
+                    <div>Utilities</div>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <div>Movies</div>
+        </li>
+        <li>
+            <div>Music</div>
+            <ul>
+                <li>
+                    <div>Rock</div>
+                    <ul>
+                        <li>
+                            <div>Alternative</div>
+                        </li>
+                        <li>
+                            <div>Classic</div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>Jazz</div>
+                    <ul>
+                        <li>
+                            <div>Freejazz</div>
+                        </li>
+                        <li>
+                            <div>Big Band</div>
+                        </li>
+                        <li>
+                            <div>Modern</div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <div>Pop</div>
+                </li>
+            </ul>
+        </li>
+    </ul>
+
+    <!-- js -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/ui_one.js"></script>
+
+</body>
+
+</html>
